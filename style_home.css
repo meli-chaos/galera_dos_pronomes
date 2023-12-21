@@ -1,0 +1,266 @@
+.menu-btn {
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 1600px;
+    position: absolute;
+}
+
+.btn-line {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-image: url(../Imagens/box_menu.png);
+    background-position: left;
+    margin-top: 200px;
+    margin-left: 1200px;
+    max-width: 600px;
+    border-radius: 30px;
+    height: 800px;
+    z-index: 1;
+}
+
+.menu ul {
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 80px;
+    text-decoration: none;
+}
+
+.menu li {
+    padding: 15px;
+    text-align: left;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu-btn.active .btn-line:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menu-btn.active .btn-line:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-btn.active .btn-line:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.menu-btn.active + .menu {
+    display: block;
+}
+.titulo{
+    height: 750px;
+}
+.titulo_galera{
+    color: #ffff;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 200px;
+    font-weight: 900;
+    height: 93px;
+    left: 1310px;
+    letter-spacing: -3px;
+    line-height: normal;
+    position: center;
+    margin-left: 200px;
+    margin-top: 150px;
+    width: 1362px;
+}
+.titulo_pronomes{
+    color: #ffffff;
+    font-family: "Inter-Black", Helvetica;
+    font-size: 200px;
+    font-weight: 900;
+    height: 271px;
+    letter-spacing: -3px;
+    line-height: normal;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 142px;
+    width: 1362px;
+}
+.titulo_dos{
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 200px;
+    letter-spacing: -0.6px;
+    height: 317px;
+    margin-left: 1168px;
+    margin-top: 100px;
+    position: absolute; text-align:
+    right; width: 341px;
+}
+body{
+    background-image: url(../Imagens/background.jpg);
+    background-repeat: repeat-y;
+    max-width: 1920px;
+    background-color: #1a1a1a
+}
+.projeto_ex{
+    align-items: center;
+    max-width: 680px;
+}
+.projeto_ex_tr{
+    height: 1100px;
+}
+.projeto_ex_foto{
+    position:absolute;
+    margin-left: 137px
+}
+.projeto_ex_titulo{
+    color: #ffffff;
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -1,5px;
+    position: absolute;
+    margin-left: 1350px;
+    max-width: 400px;
+    text-align: end;
+}
+.projeto_ex_descricao{
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    letter-spacing: -1,5px;
+    position: absolute;
+    margin-left: 1480px;
+    margin-top: 190px;
+    text-align: right;
+    max-width: 300px;
+}
+.projeto_ex_texto{
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    letter-spacing: -1,5px;
+    position: absolute;
+    margin-left: 1360px;
+    margin-top: 370px;
+    text-align: right;
+    max-width: 420px;
+}
+.perfil_li{
+    height: 1100px;
+}
+.perfil_li_foto{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.perfil_li_foto_link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.perfil_li_nome{
+    color: #ffffff;
+    font-family: "inter", Helvetica;
+    font-size: 150px;
+    text-align: right;
+    max-width: 850px;
+    margin-left: 900px;
+    position: absolute;
+    text-decoration: none;
+}
+.perfil_li_texto{
+    color: #ffffff;
+    font-family: "inter", Helvetica;
+    font-size: 45px;
+    text-align: right;
+    max-width: 350px;
+    margin-left: 1400px;
+    margin-top: 430px;
+    position: absolute;
+}
+.perfil_mel{
+    height: 1100px;
+}
+.perfil_mel_nome{
+    color: #ffffff;
+    font-family: "inter", Helvetica;
+    font-size: 150px;
+    text-align: right;
+    max-width: 850px;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: absolute;
+    text-align: left;
+}
+.perfil_mel_link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.perfil_mel_texto{
+    color: #ffffff;
+    font-family: "inter", Helvetica;
+    font-size: 45px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: 100px;
+    margin-top: 420px;
+    position: absolute;
+}
+.perfil_mel_foto{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 60px
+}
+.perfil_lu{
+    height: 1100px;
+}
+.perfil_lu_foto{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.perfil_lu_nome{
+    color: #ffffff;
+    font-family: "inter", Helvetica;
+    font-size: 150px;
+    text-align: left;
+    max-width: 850px;
+    margin-left: 1000px;
+    margin-top: 100px;
+    position: absolute;
+}
+.perfil_lu_texto{
+    color: #ffffff;
+    font-family: "inter", Helvetica;
+    font-size: 45px;
+    text-align: right;
+    max-width: 350px;
+    margin-left: 1400px;
+    margin-top: 480px;
+    position: absolute;
+}
+.perfil_lu_link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn_topo{
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 300px;
+    position: absolute;
+}
+.btn_topo_esp{
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+}
